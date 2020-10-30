@@ -367,8 +367,8 @@ void Shell_run(){
     //free cmd memory
     free(cmd);
 
-    //if the input is a comment...
-    if (args[0][0] == '#'){
+    //if the input is a comment or blank line...
+    if (args[0][0] == '#' || (util_getArgSize() == 1 && args[0][0] < ' ')){
         util_freeTokens(args);
         goto shellstart;
     }
