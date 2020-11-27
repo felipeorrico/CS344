@@ -11,5 +11,5 @@ Assignment 5 - ReadMe - Felipe Orrico Scognamiglio (933-327-510)
     III) If the Makefile does not work use ./CompileAll
 		IV) You can clean the created files after the script with ./ClearAll
 
-4) In case of Corrupt files:
+3) In case of Corrupt files:
 	I post all my assignments on GitHub! https://github.com/felipeorrico/CS344
