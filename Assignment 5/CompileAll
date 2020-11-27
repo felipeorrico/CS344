@@ -1,0 +1,7 @@
+echo Compiling All Files
+gcc -std=gnu99 -g keygen.c -o keygen
+gcc -std=gnu99 -g enc_client.c -o enc_client
+gcc -std=gnu99 -g intlist.c ServerAPI.c enc_server.c -o enc_server
+gcc -std=gnu99 -g dec_client.c -o dec_client
+gcc -std=gnu99 -g intlist.c ServerAPI.c dec_server.c -o dec_server
+echo Finished Compilation
